@@ -23,5 +23,5 @@ RUN npm i --omit=dev
 
 COPY --from=development /usr/src/app/dist ./dist
 
-##CMD [ "npm", "run", "start"]
+##CMD [ "npm", "run", "start"]  
 CMD [ "node", "./dist/src/index.js"]
