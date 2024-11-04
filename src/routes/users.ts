@@ -1,5 +1,5 @@
 import { Router } from "express";
-import { createUser, getUserById, getUsers } from "../hendlers/users.js";
+import { createUser, getUserById, getUsers } from "../hendlers/users";
 
 const router = Router();
 
