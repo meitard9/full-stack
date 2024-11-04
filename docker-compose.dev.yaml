@@ -1,0 +1,17 @@
+#version: "3.4"
+
+services:
+  #any name we want
+  api:
+    build:
+      context: .
+      #run all the stages untill and include
+      target: development
+    #??????
+    #volumes:
+      #- ./src:/usr/src/app
+    ports:
+      #loclhost:<port>
+      #port : outport
+      - 3000:3000
+    command: npm run start

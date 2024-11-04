@@ -1,0 +1,12 @@
+version: '1.0.0'
+services:
+#   db:
+#     image: postgress
+#     environment:
+#       - POSTGRES_PASSWORD: pass
+#       - POSTGRES_USER: user
+#       - POSTGRES_DB: db
+  app:
+    image: my-node-app
+    ports:
+      -13000:3000
