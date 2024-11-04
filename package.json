@@ -5,7 +5,8 @@
   "type": "module",
   "scripts": {
     "lint": "eslint .",
-    "test": "jest --coverage",
+    "test": "jest",
+    "test:coverage": "jest --coverage",
     "test:e2e": "jest --testPathPattern=e2e",
     "test:unit": "jest --testPathPattern=unit",
     "build": "tsc --build",
